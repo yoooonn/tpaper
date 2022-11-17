@@ -23,9 +23,9 @@
   {{ end }}
 
   <!-- Styles & Scripts -->
-  {{ $main_css := resources.Get "main.css" }}
-  <!---->
   {{ $custom_css := resources.Get "custom.css" }}
+  <!---->
+  {{ $main_css := resources.Get "main.css" }}
   <!---->
   {{ $css := slice $main_css $custom_css | resources.Concat "main.css" | minify
   }}

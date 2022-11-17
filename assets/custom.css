@@ -1,1 +1,38 @@
 /* Place custom css here. */
+
+.prose {
+    --tw-prose-invert-headings: #dadada;
+    --tw-prose-invert-links: #dadada;
+    --tw-prose-invert-bold: #dadada;
+    --tw-prose-invert-quotes: #dadada;
+    --tw-prose-invert-code: #dadada;
+}
+
+.prose-neutral {
+    /*--tw-prose-bullets: #dadada;*/
+    /*--tw-prose-th-borders: #dadada;*/
+    /*--tw-prose-invert-body: #dadada;*/
+    --tw-prose-invert-headings: #dadada;
+    --tw-prose-invert-links: #dadada;
+    --tw-prose-invert-bold: #dadada;
+    --tw-prose-invert-quotes: #dadada;
+    --tw-prose-invert-code: #dadada;
+    /*--tw-prose-invert-pre-code: #dadada;*/
+}
+
+article pre {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0.3rem 0.6rem !important;
+    font-style: italic !important;
+}
+
+article blockquote {
+    padding-left: 1em !important;
+    margin-left: 0 !important;
+}
+
+.dark article blockquote {
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(218 218 218/var(--tw-border-opacity)) !important;
+}
