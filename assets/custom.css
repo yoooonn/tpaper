@@ -36,3 +36,7 @@ article blockquote {
     --tw-border-opacity: 1 !important;
     border-color: rgb(218 218 218/var(--tw-border-opacity)) !important;
 }
+
+.p-2 {
+    padding: 0.5rem;
+}
